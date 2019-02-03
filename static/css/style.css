@@ -8,6 +8,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: rgb(128, 37, 2);
 }
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
@@ -16,6 +17,7 @@ body {
   min-height: 100%;
   padding-bottom: 130px;
   overflow: auto;
+  background-color: rgb(128, 37, 2);
 }
 
 /* The footer is positioned at the bottom of the page */
@@ -41,6 +43,7 @@ body {
 .navbar {
   padding: 5px;
   margin: 0;
+  background-color: rgb(128, 37, 2);
 }
 
 /* This CSS styles the ufo icon in the navbar */
@@ -57,8 +60,29 @@ body {
   margin-top: 50px;
 }
 
+.panel-default>.panel-heading {
+  background-color: #864c30;
+  color: #ebebeb;
+}
+
 .filters .panel-body {
   padding: 0;
+  background-color: rgb(201, 122, 90);
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #864c30;
+  border-color: transparent;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: rgb(201, 122, 90);
+  border: 1px solid transparent;
 }
 
 .filters {
@@ -71,6 +95,14 @@ select {
   padding: 8px;
   color: #8e979f;
   outline: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid  rgb(201, 122, 90);
 }
 
 #table-area th {
@@ -98,7 +130,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/Olym.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
